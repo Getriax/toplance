@@ -52,7 +52,6 @@ class AskService {
         });
     }
 
-    //BID IS NOT POPULATED
 
     getAllLimit(req, res) {
 

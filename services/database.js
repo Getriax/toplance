@@ -30,7 +30,7 @@ class Database {
 
     }
 
-    // disconnect from database
+  
     close() {
         connection.close(() => {
             console.log('Mongoose default connection disconnected through app termination');

@@ -7,7 +7,7 @@ const mongoose = require('mongoose'),
 
 class Auth {
 
-    //post /auth/login
+  
     loginUser(req, res) {
         let loginData = req.body;
 
